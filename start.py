@@ -63,7 +63,7 @@ def printSentiment(tweets):
 
 #starts the program
 def startProgram():
-    start = input("This is an experiemental application.\nThis is not intended to provide financial advice.\nIt returns the average compound sentiment analysis score of 100 recent tweets involving your ticker.\n A positive score means the sentiment is overall positive.\nStart: y/n")
+    start = input("This is an experiemental application.\nThis is not intended to provide financial advice.\nIt returns the average compound sentiment analysis score of 100 recent tweets involving your ticker.\n A positive score means the sentiment is overall positive.\nStart: y/n\n")
     if start == "Y" or start == "y":
         buildRequest()
     else:
@@ -71,7 +71,7 @@ def startProgram():
 
 #restarts the program
 def restartProgram():
-    restart = input("Would you like to search another ticker: y/n")
+    restart = input("Would you like to search another ticker: y/n\n")
     if restart == "Y" or restart == "y":
         buildRequest()
     else:
